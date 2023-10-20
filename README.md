@@ -10,25 +10,30 @@ Tentarei organizar sim, para deixá-lo limpo e de fácil compreensão, mas com f
   <img src="./Imagens/readme/Java.webp" alt="Java" width="300" />
   <figcaption><strong>Java</strong><figcaption>
 </figure>
+<br><br>
 
 <figure>
   <img src="./Imagens/readme/python.png" alt="Python" width="300"/>
   <figcaption><strong>Python</strong><figcaption>
 </figure>
+<br><br>
 
 <figure>
   <img src="./Imagens/readme/php.png" alt="PHP" width="300"/>
   <figcaption><strong>PHP</strong><figcaption>
 </figure>
+<br><br>
 
 <figure>
   <img src="./Imagens/readme/Javascript.png" alt="js" width="300"/>
   <figcaption><strong>Javascript</strong><figcaption>
 </figure>
+<br><br>
 
 <figure>
   <img src="./Imagens/readme/JSON.jpg" alt="PHP" width="300"/>
   <figcaption><strong>JSON</strong><figcaption>
 </figure>
+<br><br>
 
-### Nãose restringindo a uma tecnologia <span style="color:red">específica</span>
+### Nãose restringindo a uma tecnologia <span style="color:red"> específica</span>
