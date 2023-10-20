@@ -36,4 +36,4 @@ Tentarei organizar sim, para deixá-lo limpo e de fácil compreensão, mas com f
 </figure>
 <br><br>
 
-### Nãose restringindo a uma tecnologia <span style="color:red"> específica</span>
+### Não se restringindo a uma tecnologia <span style="color:red"> específica</span>
