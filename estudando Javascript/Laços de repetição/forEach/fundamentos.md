@@ -186,3 +186,70 @@ for (let i = 0; i < numbers.length; i++) {
 </code>
 
 Neste caso ele para a execução
+
+<code>
+
+const x = () => {
+    try {
+        numbers.forEach(number => {
+          if (number === 3) {
+          throw new Error('Erro')
+    }
+
+        console.log(number)
+
+    })
+} catch (error) {
+    console.log(error)
+    }
+}
+</code>
+
+*** Erros comuns ao usar o forEach ***
+- Manipulação de DOM desnecessária
+- Desejar parar forEach
+    - some, find, every e findIndex
+        - for, for of e for in com o break
+- Erro comum: usar para adicionar escuta de evento em elementos, maneira correta:
+<code>
+const ul = document.querySelector('ul')
+
+ul.addEventListener('click', e => {
+    console.log(e.target)
+})
+</code>
+
+<code>
+const userAnswers = ['a', 'b', 'c', 'd'];
+const correctAnswers = ['a', 'b', 'c','d'];
+
+let score = 0
+
+userAnswers.forEach((userAnswer, i) => {
+   if(userAnswer === correctAnswers[i]) {
+    score += 25
+   }
+})
+ scoreContainer.textContent = `Você fez ${score}/100 pontos`
+</code>
+
+
+// Exibir depois do cálculo e não dentro
+<code>
+[1, 2, 3].forEach(number => {
+    if(number === 2) {
+        return
+    }
+
+    console.log(number)
+})
+
+// Ele não para a repetição, apenas ignora
+[1,2,3].some(number => {
+    console.log(number)
+    return number === 2
+})
+</code>
+
+
+
